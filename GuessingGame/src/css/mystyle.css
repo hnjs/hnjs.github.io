@@ -1,0 +1,16 @@
+.container {
+	width: 350px;
+	text-align: center;
+}
+
+#inputVal {
+	text-align: center;
+}
+
+div {
+	padding: 3px;
+}
+
+#status {
+	height: 70px;
+}

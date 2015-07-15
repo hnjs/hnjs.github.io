@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="src/css/mystyle.css">
+		<title>Game of Guesses</title>
+	</head>
+	<body>
+		<div class="container bg-warning">
+			<h1>Game Of Guesses</h1>
+			<div class="row">
+				<div class="col-md-12">
+					<input id="inputVal" class="form-control input-lg box-shadow" placeholder="Guess a number from 1 to 100" type="text">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<button id="guess" class="btn btn-success btn-block btn-lg">Guess The Number</button>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 id="status"></h3>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<button id="reset" class="btn btn-primary btn-block btn-lg">Play Again</button>
+				</div>
+				<div class="col-sm-6">
+					<button id="hint" class="btn btn-danger btn-block btn-lg">Hint</button>	
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12 btn-warning">
+					<h4>
+						Past Guesses [ <span id="pastguesses"></span> ]
+					</h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12 btn-info">
+					<h4>Remaining Guesses 
+						<span id="guessesleft" class="label label-default">5</span>
+					</h4>
+				</div>
+			</div>
+		</div>
+		
+		<script src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="src/js/guessinggame.js"></script>
+
+	</body>
+</html>
